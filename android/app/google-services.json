@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "928626397265",
+    "firebase_url": "https://aer-plus-default-rtdb.firebaseio.com",
+    "project_id": "aer-plus",
+    "storage_bucket": "aer-plus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928626397265:android:002efc0e582a0fd032a870",
+        "android_client_info": {
+          "package_name": "com.arenzha.aerplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928626397265-3260k5r2n1uhb33kcagjusr7o6cq8mnt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQIkSeTbAgKmboqOOiLBrlAdDr5Vd4FDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928626397265-3260k5r2n1uhb33kcagjusr7o6cq8mnt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928626397265:android:154eeb0120cc5bc132a870",
+        "android_client_info": {
+          "package_name": "com.arenzha.aerplus.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928626397265-3260k5r2n1uhb33kcagjusr7o6cq8mnt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQIkSeTbAgKmboqOOiLBrlAdDr5Vd4FDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928626397265-3260k5r2n1uhb33kcagjusr7o6cq8mnt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928626397265:android:bf33a31f609826e932a870",
+        "android_client_info": {
+          "package_name": "com.arenzha.aerplus.superviso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928626397265-3260k5r2n1uhb33kcagjusr7o6cq8mnt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQIkSeTbAgKmboqOOiLBrlAdDr5Vd4FDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928626397265-3260k5r2n1uhb33kcagjusr7o6cq8mnt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
