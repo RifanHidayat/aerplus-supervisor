@@ -73,6 +73,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "928626397265-4b8hp7fjj6516n9bdhf7i8ndmg16mscd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arenzha.aerplus.superviso",
+            "certificate_hash": "79ccdf98d39d3d27c004d5d68a0d89cda3e9d469"
+          }
+        },
+        {
           "client_id": "928626397265-3260k5r2n1uhb33kcagjusr7o6cq8mnt.apps.googleusercontent.com",
           "client_type": 3
         }
