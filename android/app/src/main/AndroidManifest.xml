@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.arenzha.aerplus.superviso">
+    package="com.arenzha.aerplus.superviso" xmlns:tools="http://schemas.android.com/tools">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -7,11 +7,14 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
    <application
-        android:label="superviso"
+        android:label="Aerplus Supervisor"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+       tools:replace="android:label"
+
+        android:icon="@mipmap/launcher_icon">
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -40,5 +43,8 @@
             android:value="2" />
        <meta-data android:name="com.google.android.geo.API_KEY"
            android:value="AIzaSyDoWOFRNyHDh6Q2cMaqjVUAdrlDZvJF3GQ"/>
+
+
+
     </application>
 </manifest>
