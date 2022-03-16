@@ -1,40 +1,6 @@
-import 'dart:convert';
-import 'dart:io';
 
-import 'package:flutter/cupertino.dart';
-import 'package:get/get.dart';
-import 'package:http/http.dart' as http;
-import 'package:superviso/pages/track/track.dart';
-import 'package:superviso/sesion/sesion.dart';
+//var base_url = "https://hrd-api.depotaerplus.net";
+ var base_url = "http://192.168.2.103:8000";
 
-Session session = new Session();
+var image_url="https://aerplus.s3.ap-southeast-1.amazonaws.com";
 
-class Repositories {
-  var base_url = "https://ec4b-202-80-217-113.ngrok.io";
-
-  Future<void> loginEmployee(
-      BuildContext context, var username, var password) async {
-    try {
-      final body = jsonEncode({
-        "username": "${username.toString()}",
-        "password": "${password.toString()}"
-      });
-      final response = await http.post("$base_url/api/hrd-auth/signin",
-          headers: {'Content-Type': 'application/json; charset=utf-8'},
-          body: body);
-
-      final data = jsonDecode(response.body);
-
-      if (data['code'] == 200) {
-        session.saveData(username.toString(), "", data['data']['id']);
-        if (data['data']['credential']['mobileAccessType'] == "regular") {
-          Get.to(TrackPage());
-        } else {}
-      } else {
-        print("ts${data['message']}");
-      }
-    } on Exception catch (e) {
-      print("error ${e}");
-    }
-  }
-}
